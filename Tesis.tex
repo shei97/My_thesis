@@ -1,0 +1,115 @@
+
+\documentclass[12pt, a4paper]{uhthesis}
+
+
+\usepackage[T1]{fontenc}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%\decimalpoint
+
+%\usepackage{subfigure}
+\usepackage[linesnumbered,lined,titlenumbered,ruled]{algorithm2e}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{mathpazo}
+\usepackage{float}
+\usepackage{graphicx}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+%\usepackage{graphicx, setspace}
+\usepackage{caption}
+%\captionsetup[figure]{font={stretch=1.2}}
+
+
+\usepackage{hyperref}
+
+\usepackage[scaled]{beramono}
+\usepackage{color}
+\usepackage{listings}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\usepackage[flushleft]{threeparttable}
+
+\renewcommand{\tablename}{Tabla}
+
+\title{Dise\~no de un protocolo para la medici\'on de la actividad de enzimas de defensa en plantas de \textit{Raphanus sativus}.} %\linebreak de La Habana, Cuba}
+\author{ Sheila Toledo Blanco } 
+\advisor{Dr. Georgina Espinosa L\'opez\\Lic. Elaine Puentes Berm\'udez }
+\faculty{Facultad de Biología}
+\date{Septiembre de 2020}
+\logo{Graphics/uhlogo}
+\makenomenclature
+
+\renewcommand{\vec}[1]{\boldsymbol{#1}}
+\newcommand{\diff}[1]{\ensuremath{\mathrm{d}#1}}
+
+\usepackage[
+top=30mm,
+bottom=30mm,
+left=25mm,
+right=25mm
+]{geometry}
+
+%\setlength{\parindent}{10cm}
+
+\usepackage{natbib}
+\usepackage{hyperref}
+\newcommand*{\urlprefix}{Disponible en: }
+\newcommand*{\urldateprefix}{Visitado } 
+
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+\linespread{1.44}\selectfont
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\include{Contenido/Dedicatoria}
+\include{Contenido/Agradecimientos}
+\include{Contenido/Resumen}
+\include{Contenido/Abstract}
+
+\tableofcontents 
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\pagenumbering{gobble}
+\clearpage
+
+\mainmatter
+
+
+\include{Contenido/Introduccion}
+\include{Contenido/Revision}
+\include{Contenido/MaterialesMetodo}
+\include{Contenido/Resultados}
+\include{Contenido/Discusion}
+\include{Contenido/Conclusiones}
+\include{Contenido/Recomendaciones}
+
+\backmatter
+
+\renewcommand{\bibname}{Literatura Citada}
+\bibliographystyle{my-bath}
+\bibliography{Bibliography}
+
+\renewcommand{\figurename}{Figura}
+
+
+%\include{Contenido/Anexos}
+
+\end{document}

@@ -1,0 +1,27 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Tesis.aux
+A level-1 auxiliary file: Contenido/Dedicatoria.aux
+A level-1 auxiliary file: Contenido/Agradecimientos.aux
+A level-1 auxiliary file: Contenido/Resumen.aux
+A level-1 auxiliary file: Contenido/Abstract.aux
+A level-1 auxiliary file: Contenido/Introduccion.aux
+A level-1 auxiliary file: Contenido/Revision.aux
+A level-1 auxiliary file: Contenido/MaterialesMetodo.aux
+A level-1 auxiliary file: Contenido/Resultados.aux
+A level-1 auxiliary file: Contenido/Discusion.aux
+A level-1 auxiliary file: Contenido/Conclusiones.aux
+A level-1 auxiliary file: Contenido/Recomendaciones.aux
+The style file: my-bath.bst
+Database file #1: Bibliography.bib
+I was expecting a `,' or a `}'---line 52 of file Bibliography.bib
+ : 
+ : @article{dat2000active,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1395 of file Bibliography.bib
+ : @article{xie2019roles
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in chance1955136
+Warning--empty journal in mithofer2016general
+Warning--empty journal in sharma2010regulation
+(There were 2 error messages)
